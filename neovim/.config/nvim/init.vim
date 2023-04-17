@@ -12,6 +12,7 @@ Plug 'mattn/emmet-vim'
 Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
 call plug#end()
 " -------------------------------------------------
