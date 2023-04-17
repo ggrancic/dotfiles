@@ -13,6 +13,9 @@ Plug 'akinsho/bufferline.nvim', { 'tag': 'v3.*' }
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
+Plug 'godlygeek/tabular'
+Plug 'preservim/vim-markdown'
 
 call plug#end()
 " -------------------------------------------------
@@ -47,7 +50,7 @@ set autoindent
 set showmatch
 
 "colorscheme
-colorscheme jellybeans
+colorscheme tokyonight-night
 
 set termguicolors
 
