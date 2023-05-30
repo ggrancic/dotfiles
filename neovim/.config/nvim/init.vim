@@ -16,6 +16,7 @@ Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
+Plug 'shaunsingh/nord.nvim'
 
 call plug#end()
 " -------------------------------------------------
@@ -50,7 +51,7 @@ set autoindent
 set showmatch
 
 "colorscheme
-colorscheme tokyonight-night
+colorscheme nord
 
 set termguicolors
 
