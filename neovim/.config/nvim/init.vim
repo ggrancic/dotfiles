@@ -17,6 +17,7 @@ Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
 Plug 'godlygeek/tabular'
 Plug 'preservim/vim-markdown'
 Plug 'shaunsingh/nord.nvim'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
 " -------------------------------------------------
