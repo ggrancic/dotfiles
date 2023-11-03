@@ -97,7 +97,8 @@ bindsym $mod+w layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
-bindsym $mod+Shift+space floating toggle
+#bindsym $mod+Shift+space floating toggle
+bindsym $mod+Shift+space "mark --add _; [con_mark=f] floating disable, border none, mark --add --toggle _; [con_mark=_] floating enable, border normal 2; mark --add --toggle f;"
 
 # change focus between tiling / floating windows
 bindsym $mod+space focus mode_toggle
@@ -200,7 +201,11 @@ bar {
 
 exec --no-startup-id feh --bg-scale ~/Pictures/clouds.png
 
-for_window [class="^.*"] border pixel 0
+#for_window [floating] border normal 2 
+#for_window [tiling] border pixel 0
+
+new_window none
+new_float normal 2
 
 # Assign URxvt terminals to workspace 2
 assign [class="URxvt"] $ws2
@@ -218,3 +223,5 @@ assign [class="com.oracle.javafx.scenebuilder.app.SceneBuilderApp"] $ws4
 
 # Assign code-editors/ide to workspace 3
 assign [class="Eclipse"] $ws3
+
+bindsym $mod+m move workspace to output next
