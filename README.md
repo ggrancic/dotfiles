@@ -1,6 +1,10 @@
 # Gian's Dotfiles
 
-This are my configuration files of some programs I use. To "deploy" them, you need stow installed on your system. Once you have stow installed, simply run stow <name of the folder>.
+This are my configuration files of some programs I use. To "deploy" them, you need stow installed on your system. Once you have stow installed, simply run
+
+```
+stow nameofthefolder
+```
 
 The programs are:
 
