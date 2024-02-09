@@ -7,12 +7,10 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-        colors = false
+        colors = true
         interval = 5
 }
 
-order += "wireless _first_"
-order += "ethernet _first_"
 order += "tztime local"
 
 wireless _first_ {
@@ -25,9 +23,22 @@ ethernet _first_ {
         format_down = "E: down"
 }
 
+battery all {
+        format = "%status %percentage %remaining"
+}
+
+disk "/" {
+        format = "%avail"
+}
 
 load {
         format = "%1min"
+}
+
+memory {
+        format = "%used | %available"
+        threshold_degraded = "1G"
+        format_degraded = "MEMORY < %available"
 }
 
 tztime local {

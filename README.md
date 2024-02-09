@@ -10,9 +10,11 @@ The programs are:
 
 - i3
 - i3status
-- ranger
-- Neovim (latest version)
 - Tmux
-- urxvt
+- alacritty
+- picom
+- rofi
+- Theme and icons for gtk apps
+- wallpapers
 
-You also need fonts-font-awesome installed to render the glyphs in i3status workspace indicators.
+- Fonts used are: Ubuntu Regular (GUI), mononoki (terminal)
