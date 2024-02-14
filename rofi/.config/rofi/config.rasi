@@ -1,5 +1,5 @@
 configuration {
-    font: "mononoki 12";
+    font: "FiraMono Nerd Font Mono 12";
     line-margin: 10;
 
     display-ssh:    "";
