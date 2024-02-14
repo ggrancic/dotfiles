@@ -17,4 +17,4 @@ The programs are:
 - Theme and icons for gtk apps
 - wallpapers
 
-- Fonts used are: Ubuntu Regular (GUI), mononoki (terminal)
+- Fonts used are: Any sans font (GUI), FiraCode Mono Nerd Font (terminal)
